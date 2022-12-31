@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class welcomeRestController {
 
-    @GetMapping(value = "/welcome")
+    @GetMapping("/welcome")
     public String welcomemsg(){
         String msg ="Welcome to microservice demo";
 

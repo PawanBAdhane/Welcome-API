@@ -1,13 +1,12 @@
 server:
     port: 8081
-
 spring:
     application:
-        name: Welcome-Api
-boot:
-    admin:
-    client:
-        url: http://localhost:1111/
+        name: WELCOME-API
+    boot:
+        admin:
+            client:
+                url: http://localhost:1111/
 eureka:
     client:
         service-url:
