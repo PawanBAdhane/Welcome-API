@@ -1,4 +1,4 @@
-package com.nsm.WelcomeAPI.Service;
+package com.nsm.WelcomeAPI;
 
 import com.nsm.WelcomeAPI.WelcomeApiApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;

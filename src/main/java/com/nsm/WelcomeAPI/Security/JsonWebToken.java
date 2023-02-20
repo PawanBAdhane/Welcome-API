@@ -1,18 +1,17 @@
+/*
 package com.nsm.WelcomeAPI.Security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-
-import java.security.Key;
-import java.util.Date;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 
 import javax.crypto.spec.SecretKeySpec;
 import javax.xml.bind.DatatypeConverter;
-
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import java.security.Key;
+import java.util.Date;
 
 public class JsonWebToken {
 	private static final Log log = LogFactory.getLog(JsonWebToken.class);
@@ -66,10 +65,13 @@ public class JsonWebToken {
 		obj.parseJWT(jwtToken);
 
 		//to verify generated  token
-		/*String token =  "EiRdZoiDzVnJz2UUgreeqD6aBOGkSuaI7XUmT7AkVP6dYkfC3CoGP4qtCHGHvslY9Amq3OPuUNP6o2jiukiTobOp4KERiN++zlXfiAhiL/NbIea65WSUhwLy1fM1W9h/IoQqv5sa8HR3q8xt/gNism4Igt2045bf+Zk+UuxKrAGX+HInNTqEuXHIE7cL2SwnpwYWk9EEnwXlmp1LcGLY+n/HrDYk7NmcOpPXjyqPaSZA2YErVAFwJpRydyIqAJ4C";
+		*/
+/*String token =  "EiRdZoiDzVnJz2UUgreeqD6aBOGkSuaI7XUmT7AkVP6dYkfC3CoGP4qtCHGHvslY9Amq3OPuUNP6o2jiukiTobOp4KERiN++zlXfiAhiL/NbIea65WSUhwLy1fM1W9h/IoQqv5sa8HR3q8xt/gNism4Igt2045bf+Zk+UuxKrAGX+HInNTqEuXHIE7cL2SwnpwYWk9EEnwXlmp1LcGLY+n/HrDYk7NmcOpPXjyqPaSZA2YErVAFwJpRydyIqAJ4C";
 		String decToken=AES256.decText(token);
 		JsonWebToken  jwt= new JsonWebToken();
-		Claims claims = jwt.parseJWT(decToken);*/
+		Claims claims = jwt.parseJWT(decToken);*//*
+
 
 	}
 }
+*/
