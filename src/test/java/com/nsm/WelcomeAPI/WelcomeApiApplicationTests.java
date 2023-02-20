@@ -1,4 +1,4 @@
-package com.example.WelcomeAPI;
+package com.nsm.WelcomeAPI;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
