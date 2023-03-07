@@ -20,9 +20,9 @@ public class welcomeRestController {
         return msg;
     }
 
-    @GetMapping(value = "/employee")
+   /* @GetMapping(value = "/employee")
     public void employeeInfo(EmployeeEntity employeeEntity) {
         empservice.saveEmployee(employeeEntity);
 
-    }
+    }*/
 }
