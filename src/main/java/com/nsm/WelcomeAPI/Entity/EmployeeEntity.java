@@ -1,8 +1,5 @@
 package com.nsm.WelcomeAPI.Entity;
 
-import jdk.nashorn.internal.objects.annotations.Setter;
-
-@Setter
 public class EmployeeEntity {
 
     private long EmpId;
