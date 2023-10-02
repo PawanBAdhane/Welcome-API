@@ -1,7 +1,7 @@
 package com.nsm.WelcomeAPI.DAO;
 
 import com.nsm.WelcomeAPI.DAO.DAOImpl.employeeDaoImpl;
-import com.nsm.WelcomeAPI.Entity.EmployeeEntity;
+import com.nsm.WelcomeAPI.model.EmployeeEntity;
 import org.springframework.stereotype.Repository;
 
 @Repository

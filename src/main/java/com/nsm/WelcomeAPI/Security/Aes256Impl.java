@@ -129,7 +129,7 @@ public class Aes256Impl {
 
 		aes.setIV(new IvParameterSpec(iv));
 
-		FileInputStream fi = new FileInputStream("../LAYI/src/TestTemplates/LeadEnquiryRequest.txt");
+		FileInputStream fi = new FileInputStream("F:\\JavaSpringbootMicroservice\\Welcome-API\\src\\main\\resources\\Credentials\\PassFile.txt");
 		StringBuffer sb = new StringBuffer();
 
 		int i;

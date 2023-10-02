@@ -1,6 +1,6 @@
 package com.nsm.WelcomeAPI.Service.ServiceImpl;
 
-import com.nsm.WelcomeAPI.Entity.EmployeeEntity;
+import com.nsm.WelcomeAPI.model.EmployeeEntity;
 
 public interface employeeSeviceIMPL {
 

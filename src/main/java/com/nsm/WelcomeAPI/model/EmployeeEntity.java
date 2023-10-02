@@ -1,4 +1,4 @@
-package com.nsm.WelcomeAPI.Entity;
+package com.nsm.WelcomeAPI.model;
 
 public class EmployeeEntity {
 

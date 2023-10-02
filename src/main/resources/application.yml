@@ -16,3 +16,15 @@ management:
         web:
             exposure:
                 include: '*'
+
+# Kafka Config
+spring.kafka.bootstrap.servers: localhost:9092
+input.kafka.topicName: TrxnKafkaTopic
+spring.kafka.consumer.group.id: demo_trxn_kafka
+spring.kafka.client.id: demo_trxn_kafka
+spring.kafka.consumer.auto-offset-reset: latest
+spring.kafka.consumer.enable.auto.commit: true
+spring.kafka.consumer.security.protocol: SSL
+spring.kafka.consumer.max.poll-records: 100
+spring.kafka.consumer.key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+spring.kafka.consumer.value-deserializer: org.apache.kafka.common.serialization.StringDeserializer

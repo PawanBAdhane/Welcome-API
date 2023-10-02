@@ -17,8 +17,7 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.commons.codec.binary.Base64;
 
-*/
-/**
+*
  *
  * AES static function for different key and iv
  *
@@ -30,7 +29,7 @@ import org.apache.commons.codec.binary.Base64;
  *
  *
  *
- *//*
+
 
 
 public class AES256_DynamicEnc {
